@@ -1,0 +1,36 @@
+#root {
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+
+
+header {
+  background-color: #354649;
+  padding: 1em 5em;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+main {
+  display: column;
+  margin-top: 1em;
+  padding: 0 5em;
+  color: #354649;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 1em auto;
+}
+
+td {
+  border: 1px solid #000;
+  text-align: center;
+}
